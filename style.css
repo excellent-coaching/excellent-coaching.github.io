@@ -1,0 +1,116 @@
+body {
+            font-family: 'Arial', sans-serif;
+    }
+    .hero-section {
+        background: url('assets/images/hero.png') center/cover no-repeat;
+        height: 100vh;
+        color: #fff;
+        text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+    }
+    .hero-content {
+        padding-top: 200px;
+    }
+    .feature-icon {
+        font-size: 40px;
+        color: #0d6efd;
+    }
+    .footer {
+        background: #222;
+        color: #fff;
+        padding: 20px 0;
+    }
+
+.hero-title {
+    color: #1f3c88;
+}
+
+.hero-subtitle {
+    color: #2c3e50;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+section {
+    scroll-margin-top: 90px;
+}
+
+/* Premium Coaching Navbar */
+.premium-navbar {
+    background: linear-gradient(90deg, #e6eeff, #f8fbff);
+    border-bottom: 1px solid #d6e0f0;
+}
+
+
+
+/* Brand */
+.premium-navbar .navbar-brand {
+    color: #1f3c88;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+/* Nav links */
+.premium-navbar .nav-link {
+    color: #2c3e50;
+    font-weight: 500;
+    margin-left: 15px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.premium-navbar .nav-link:hover {
+    color: #ff9800;
+}
+
+/* Logo styling */
+.brand-logo {
+    height: 42px;          /* layout height (DO NOT increase) */
+    width: auto;
+    transform: scale(1.35); /* visually increase size */
+    transform-origin: left center;
+}
+
+/* Brand text */
+.navbar-brand span {
+    color: #1f3c88;
+    font-size: 1.35rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.navbar-brand {
+    overflow: visible;
+}
+
+@media (max-width: 576px) {
+    .brand-logo {
+        transform: scale(1.15);
+    }
+}
+
+/* Contact section */
+.contact-box {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.contact-box h5 {
+    color: #1f3c88;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact-box a {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-box a:hover {
+    color: #ff9800;
+}
